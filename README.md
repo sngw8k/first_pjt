@@ -50,3 +50,12 @@ urlpatterns = [
 ```
 
 9. `views.py`
+```python
+def index(request):
+    return render(request, 'index.html')
+```
+
+10. templates 폴더 생성 => index.html 생성
+
+## MTV
+![mtv](./assets/MTV.png)
